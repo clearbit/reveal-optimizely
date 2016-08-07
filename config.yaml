@@ -1,0 +1,40 @@
+- config_type: visitor_data_service
+  master_label: clearbit
+  help_text: Build audiences based on Clearbit campaigns
+  data_fetch_method: custom_javascript
+  supported_fields:
+    - name: audience
+      display_name: Clearbit Audience
+      help_text: Classifies web traffic by defined categories
+      input_type: select
+      values:
+        - value: companyName
+          text: Company Name
+        - value: companyDomain
+          text: Company Domain
+        - value: companyType
+          text: Company Type
+        - value: companyTags
+          text: Company Tags
+        - value: companyTech
+          text: Company Technology
+        - value: companySector
+          text: Company Sector
+        - value: companyIndustryGroup
+          text: Company Industry Group
+        - value: companyIndustry
+          text: Company Industry
+        - value: companySubIndustry
+          text: Company Sub Industry
+        - value: companyCountry
+          text: Company Country
+        - value: companyState
+          text: Company State
+        - value: companyCity
+          text: Company City
+        - value: companyEmployeesRange
+          text: Company Employee Range
+        - value: companyEmployees
+          text: Company Employees
+        - value: companyAlexaRank
+          text: Company Alexa Rank

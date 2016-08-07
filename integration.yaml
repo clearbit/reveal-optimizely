@@ -1,0 +1,34 @@
+clearbit:
+  addon_type: integration
+  beta: true
+  categories:
+  - Audiences
+  channels:
+  - web
+  products:
+  - ab_testing
+  - personalization
+  description: Use this integration to create Optimizely
+    audiences based on visitor data from Clearbit. This
+    integration requires an existing account with Clearbit.
+  developer: Clearbit
+  developer_website: https://clearbit.com
+  enabled: true
+  logo_file_name: logo.png
+  master_label: Clearbit
+  partner_dir_url: https://www.optimizely.com/partners/technology/clearbit
+  permission_required: clearbit_integration
+  settings_metadata:
+    fields:
+    - inputType: text
+      label: Secret API Key
+      name: api_key
+      required: true
+      saveLocations:
+      - project
+    generalHelp:
+      project:
+        kbLink: https://support.clearbit.com/optimizely
+    onOffableAtExperimentLevel: false
+    onOffableAtProjectLevel: true
+    settingsHelp: {}
